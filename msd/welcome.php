@@ -20,12 +20,12 @@ if (!isset($_SESSION['username'])) {
      <div class="container" style="max-width:800px;margin:0 auto;margin-top:50px;">  
             <div>
                 <div class="form-group">
-                    <label for="email">What are you doing today?</label>
-                    <textarea name="message" class="form-control" id="message"></textarea>
+                    <!-- <label for="textarea">What are you doing today?</label> -->
+                    <textarea name="message" class="form-control" id="message" placeholder="What are you doing today?"></textarea>
                     <div class="error" id="error_message"></div>
                 </div>
                 <div class="form-group">
-                    <button class="btn btn-success" id="save">Save</button>
+                    <button class="btn btn-primary" id="save">Post</button>
                 </div>
 
                 <div class="display-content">

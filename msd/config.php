@@ -2,7 +2,7 @@
 
 $server = "localhost";
 $user = "root";
-$pass = "dh1nch@k";
+$pass = "";
 $database = "joomdev";
 
 $conn = mysqli_connect($server, $user, $pass, $database);
